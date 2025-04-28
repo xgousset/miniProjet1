@@ -5,7 +5,7 @@ const session = require('express-session');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const models = require('./models');
+const models = require('../node/models'); // Chemin mis à jour
 
 // Load environment variables from .env file
 dotenv.config();
